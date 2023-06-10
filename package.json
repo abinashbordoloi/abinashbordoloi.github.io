@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Portfolio",
-  "homepage": "https://Abinash-bordoloi07.github.io",
+  "homepage": "https://abinashbordoloi.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
