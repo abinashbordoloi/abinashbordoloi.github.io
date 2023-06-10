@@ -9,9 +9,20 @@ const settings = {
 const seo = {
   title: "Abinash's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  image: "../src/assests/images/Abinash.png",
+  "keywords":  ["AI Engineer", "Data Scientist", "Machine Learning Engineer", "Deep Learning Engineer", "Full Stack Developer", "Flutter Developer", "Freelancer", "Abinash Bordoloi", "Abinash", "Gauhati Univerity", "IITM" , "Developer"],
+  url: "http://abinashbordoloi.com/",
+
+  "siteUrl": "https://abinashbordoloi.com",
+  "siteLanguage": "en_US",
+  "siteLocale": "en_us",
+  "twitterUsername": "Abinash Bordoloi",
+  "author": "Abinash Bordoloi",
+
+
   og: {
-    title: "Abinash Bordoloi Portfolio",
+    title: "Abinash Bordoloi's Portfolio",
     type: "website",
     url: "http://abinashbordoloi.com/",
   },
@@ -54,7 +65,7 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UC3UCJXwMRHLbE-sPtr8i5PQ",
+    link: "https://www.youtube.com/@TechInsightswithAbinash",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -359,7 +370,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/Abinash_7/",
     },
 
     {
@@ -368,7 +379,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/abinash_7",
     },
 
     {
@@ -377,7 +388,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/iteratex_pseudo1?hr_r=1",
     },
 
     {
@@ -391,20 +402,23 @@ const competitiveSites = {
     },
 
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "TopCoder",
+      iconifyClassname: "simple-icons:topcoder",
       style: {
-        color: "#1F8ACB",
+        color: "#29A9DF",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "https://platform.topcoder.com/profile/abinash_7",
     },
+
+    
+    
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@iteratex.pseudocode",
     },
     {
       siteName: "Kaggle",
@@ -412,7 +426,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/abinashbordoloi",
     },
   ],
 };
