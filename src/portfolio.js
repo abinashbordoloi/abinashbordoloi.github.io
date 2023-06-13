@@ -1,6 +1,6 @@
 /* Change this file to get your personal Porfolio */
 
-// Website related settings
+// Website related setting
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
@@ -12,9 +12,9 @@ const seo = {
   "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   image: "../src/assests/images/Abinash.png",
   "keywords":  ["AI Engineer", "Data Scientist", "Machine Learning Engineer", "Deep Learning Engineer", "Full Stack Developer", "Flutter Developer", "Freelancer", "Abinash Bordoloi", "Abinash", "Gauhati Univerity", "IITM" , "Developer"],
-  url: "http://abinashbordoloi.com/",
+  url: " https://abinashbordoloi.github.io/",
 
-  "siteUrl": "https://abinashbordoloi.com",
+  "siteUrl": " https://abinashbordoloi.github.io/",
   "siteLanguage": "en_US",
   "siteLocale": "en_us",
   "twitterUsername": "Abinash Bordoloi",
@@ -24,14 +24,14 @@ const seo = {
   og: {
     title: "Abinash Bordoloi's Portfolio",
     type: "website",
-    url: "http://abinashbordoloi.com/",
+    url: "https://abinashbordoloi.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Abinash Bordoloi",
-  logo_name: "Abinash",
+  logo_name: "Abinash Bordoloi",
   // nickname:,
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
@@ -804,7 +804,14 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
+          title: "GDSC AI/ML Lead",
+          company: "Google Developer Student Clubs",
+          company_url: "https://gdsc.community.dev/gauhati-university-guwahati/-",
+          logo_path: "dsc_logo.png",
+          duration: "Feb 2021 - Present",
+        },
+        {
+          title: "Google Explore ML ",
           company: "Google",
           company_url: "https://about.google/",
           logo_path: "google_logo.png",
@@ -866,44 +873,6 @@ const experience = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -912,57 +881,7 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
 
-const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-  ],
-};
 
 // Contact Page
 const contactPageData = {
@@ -970,29 +889,23 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, , React, Cloud and Opensource Development.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
+  
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
+      "Srishti Residency, Lankeshwar, Guwahati, ASSAM - 781014",
+    locality: "Lankeswar",
     country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    region: "Assam",
+    postalCode: "781014",
+    streetAddress: "Opp0site to NH-37",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://www.google.com/maps/place/Guwahati,+Assam/@26.1432627,91.5377231,11z/data=!3m1!4b1!4m6!3m5!1s0x375a5a287f9133ff:0x2bbd1332436bde32!8m2!3d26.1157917!4d91.7085933!16zL20vMDNmeGZ5?entry=ttu",
   },
   phoneSection: {
-    title: "",
+    title: "Mobile Number",
     subtitle: "",
   },
 };
@@ -1008,7 +921,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };

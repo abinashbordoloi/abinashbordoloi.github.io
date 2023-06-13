@@ -3,6 +3,7 @@ import "./Splash.css";
 import { Redirect } from "react-router-dom";
 import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
+
 function AnimatedSplash(props) {
   return (
     <div className="logo_wrapper">
