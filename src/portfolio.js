@@ -1,6 +1,10 @@
 /* Change this file to get your personal Porfolio */
 
+<<<<<<< HEAD
 // Website related setting
+=======
+// Website related settings
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
@@ -9,6 +13,7 @@ const settings = {
 const seo = {
   title: "Abinash's Portfolio",
   description:
+<<<<<<< HEAD
   "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   image: "../src/assests/images/Abinash.png",
   "keywords":  ["AI Engineer", "Data Scientist", "Machine Learning Engineer", "Deep Learning Engineer", "Full Stack Developer", "Flutter Developer", "Freelancer", "Abinash Bordoloi", "Abinash", "Gauhati Univerity", "IITM" , "Developer"],
@@ -25,13 +30,24 @@ const seo = {
     title: "Abinash Bordoloi's Portfolio",
     type: "website",
     url: "https://abinashbordoloi.github.io/",
+=======
+    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  og: {
+    title: "Abinash Bordoloi Portfolio",
+    type: "website",
+    url: "http://abinashbordoloi.com/",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
   },
 };
 
 //Home Page
 const greeting = {
   title: "Abinash Bordoloi",
+<<<<<<< HEAD
   logo_name: "Abinash Bordoloi",
+=======
+  logo_name: "Abinash",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
   // nickname:,
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
@@ -65,7 +81,11 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
+<<<<<<< HEAD
     link: "https://www.youtube.com/@TechInsightswithAbinash",
+=======
+    link: "https://www.youtube.com/channel/UC3UCJXwMRHLbE-sPtr8i5PQ",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -370,7 +390,11 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
+<<<<<<< HEAD
       profileLink: "https://leetcode.com/Abinash_7/",
+=======
+      profileLink: "https://leetcode.com/layman_brother/",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     },
 
     {
@@ -379,7 +403,11 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
+<<<<<<< HEAD
       profileLink: "https://www.codechef.com/users/abinash_7",
+=======
+      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     },
 
     {
@@ -388,7 +416,11 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
+<<<<<<< HEAD
       profileLink: "https://www.hackerrank.com/iteratex_pseudo1?hr_r=1",
+=======
+      profileLink: "https://www.hackerrank.com/layman_brother",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     },
 
     {
@@ -402,6 +434,7 @@ const competitiveSites = {
     },
 
     {
+<<<<<<< HEAD
       siteName: "TopCoder",
       iconifyClassname: "simple-icons:topcoder",
       style: {
@@ -412,13 +445,26 @@ const competitiveSites = {
 
     
     
+=======
+      siteName: "Codeforces",
+      iconifyClassname: "simple-icons:codeforces",
+      style: {
+        color: "#1F8ACB",
+      },
+      profileLink: "http://codeforces.com/profile/layman_brother",
+    },
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754",
       },
+<<<<<<< HEAD
       profileLink: "https://www.hackerearth.com/@iteratex.pseudocode",
+=======
+      profileLink: "https://www.hackerearth.com/@ashutosh391",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     },
     {
       siteName: "Kaggle",
@@ -426,7 +472,11 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
+<<<<<<< HEAD
       profileLink: "https://www.kaggle.com/abinashbordoloi",
+=======
+      profileLink: "https://www.kaggle.com/laymanbrother",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     },
   ],
 };
@@ -612,7 +662,11 @@ const certifications = {
 //           logo_path: "gssoc_logo.png",
 //           duration: "june 2023 - aug 2023",
 //         },
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 //         {
 //           title: "",
 //           company: "TikTok Inc.",
@@ -710,16 +764,23 @@ const certifications = {
 //   ],
 // };
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 // Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
+<<<<<<< HEAD
     "About my work and experience till now as a student. [UPDATED June 2023]",
+=======
+    "Description of my work, internship and volunteership experience in my student jouney till now. [UPDATED June 2023]",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
   header_image_path: "experience.svg",
   sections: [
     {
@@ -727,6 +788,7 @@ const experience = {
       work: true,
       experiences: [
         {
+<<<<<<< HEAD
           title: "Associate AI Engineer",
           company: "Legato Health Technology",
           company_url: "https://legatohealthtech.com/",
@@ -758,6 +820,17 @@ const experience = {
           description:
             "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
           color: "#fc1f20",
+=======
+          title: "Web Developer",
+          company: "HiFi Vision India",
+          // company_url: "https://www.hifivisionindia.com/",
+          // logo_path: "hifivision_logo.png",
+          duration: "June 2021 - PRESENT",
+          location: "Work From Home",
+          description:
+            "I am working as a web developer for the marketing team in HiFi Vision India. I am responsible for the development and maintenance of the website. I am also working on the SEO of the website.",
+          // color: "#ee3c26",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
         },
       ],
     },
@@ -765,7 +838,23 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+<<<<<<< HEAD
           title: "Machine Learning Intern",
+=======
+          title : "Open Source Contributor",
+          company: "GirlScript Summer of Code",
+          company_url: "https://www.gssoc.tech/",
+          logo_path: "gssoc_logo.png",
+          duration: "june 2023 - aug 2023",
+          description: "I will be contributing to open source projects under GirlScript Summer of Code 2023.",
+          color: "#0C9D58",
+        },
+
+
+        
+        {
+          title: "",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
           company: "TikTok Inc.",
           company_url: "https://www.tiktok.com/en/",
           logo_path: "tiktok_logo.png",
@@ -804,6 +893,7 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
+<<<<<<< HEAD
           title: "GDSC AI/ML Lead",
           company: "Google Developer Student Clubs",
           company_url: "https://gdsc.community.dev/gauhati-university-guwahati/-",
@@ -812,6 +902,9 @@ const experience = {
         },
         {
           title: "Google Explore ML ",
+=======
+          title: "Google Explore ML Facilitator",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
           company: "Google",
           company_url: "https://about.google/",
           logo_path: "google_logo.png",
@@ -871,8 +964,11 @@ const experience = {
   ],
 };
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -881,7 +977,61 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+<<<<<<< HEAD
 
+=======
+const publicationsHeader = {
+  title: "Publications",
+  description:
+    "I have worked on and published a few research papers and publications of my own.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const publications = {
+  data: [
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "Artificial Intelligence Paper",
+      createdAt: "2020-03-06T16:26:54Z",
+      description: "Paper Written on Artificial Intelligence published in xyz ",
+      url:
+        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+      name: "Artificial Intelligence Paper",
+      createdAt: "2020-03-06T16:26:54Z",
+      description: "Paper Written on Artificial Intelligence published in xyz ",
+      url:
+        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+      name: "Artificial Intelligence Paper",
+      createdAt: "2020-03-06T16:26:54Z",
+      description: "Paper Written on Artificial Intelligence published in xyz ",
+      url:
+        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+      name: "Artificial Intelligence Paper",
+      createdAt: "2020-03-06T16:26:54Z",
+      description: "Paper Written on Artificial Intelligence published in xyz ",
+      url:
+        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+      name: "Artificial Intelligence Paper",
+      createdAt: "2020-03-06T16:26:54Z",
+      description: "Paper Written on Artificial Intelligence published in xyz ",
+      url:
+        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    },
+  ],
+};
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 
 // Contact Page
 const contactPageData = {
@@ -889,6 +1039,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
+<<<<<<< HEAD
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, , React, Cloud and Opensource Development.",
   },
   
@@ -906,6 +1057,31 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Mobile Number",
+=======
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+  },
+  blogSection: {
+    title: "Blogs",
+    subtitle:
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    link: "https://blogs.ashutoshhathidara.com/",
+    avatar_image_path: "blogs_image.svg",
+  },
+  addressSection: {
+    title: "Address",
+    subtitle:
+      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    locality: "Kanodar",
+    country: "IN",
+    region: "Gujarat",
+    postalCode: "385520",
+    streetAddress: "Ambavadi vas",
+    avatar_image_path: "address_image.svg",
+    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+  },
+  phoneSection: {
+    title: "",
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
     subtitle: "",
   },
 };
@@ -921,5 +1097,12 @@ export {
   certifications,
   experience,
   projectsHeader,
+<<<<<<< HEAD
   contactPageData,
 };
+=======
+  publicationsHeader,
+  publications,
+  contactPageData,
+};
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640

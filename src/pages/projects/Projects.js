@@ -2,15 +2,24 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+<<<<<<< HEAD
 // import PublicationCard from "../../components/publicationsCard/PublicationCard";
+=======
+import PublicationCard from "../../components/publicationsCard/PublicationCard";
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
+<<<<<<< HEAD
   // publicationsHeader,
   // publications,
+=======
+  publicationsHeader,
+  publications,
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -62,7 +71,11 @@ class Projects extends Component {
           theme={theme}
         />
 
+<<<<<<< HEAD
         {/* Publications 
+=======
+        {/* Publications  */}
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
         {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
@@ -84,6 +97,7 @@ class Projects extends Component {
               </div>
             </Fade>
           </div>
+<<<<<<< HEAD
         ) : null} */}
 
         {/* <div className="repo-cards-div-main">
@@ -91,6 +105,15 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div> */}
+=======
+        ) : null}
+
+        <div className="repo-cards-div-main">
+          {publications.data.map((pub) => {
+            return <PublicationCard pub={pub} theme={theme} />;
+          })}
+        </div>
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
