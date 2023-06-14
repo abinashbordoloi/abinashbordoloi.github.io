@@ -38,6 +38,12 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
+<<<<<<< HEAD
+            </div>
+          </div>
+          <div className="image-container">
+            <img src="src/assets/images/profile.jpg" alt="Your Image"></img>
+=======
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
@@ -50,6 +56,7 @@ export default function Greeting(props) {
 							src={require("../../assests/images/feelingProud.svg")}
 						></img> */}
             <FeelingProud theme={theme} />
+>>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
           </div>
         </div>
       </div>
