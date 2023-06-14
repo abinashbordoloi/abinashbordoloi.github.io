@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+// import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -38,10 +38,32 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
+
+              <div className="quote-container" style={{ marginTop: "10px" }}>
+                <p className="quote-text">
+                  {" "}
+                  "The only way to do great work is to love what you do."
+                </p>
+                <p className="quote-author">- Steve Jobs</p>
+              </div>
             </div>
           </div>
+
+          {/* <div className="quote-container">
+
+            <p className="quote-text"> "The only way to do great work is to love what you do."</p>
+            <p className="quote-author">- Steve Jobs</p>
+
+
+
+            
+          </div> */}
           <div className="image-container">
-            <img src="src/assets/images/profile.jpg" alt="Your Image"></img>
+            <img
+              alt="Abinash_Bordoloi"
+              src={require("../../assests/images/profile.jpg")}
+              className="myimage"
+            ></img>
           </div>
         </div>
       </div>
