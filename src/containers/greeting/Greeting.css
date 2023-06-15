@@ -95,18 +95,23 @@
 }
 
 .image-container {
-  width: 500px; /* Desired width */
-  height: 510px; /* Desired height */
+  width: 300px; /* Desired width */
+  height: 525px; /* Desired height */
   background: auto;
   /* background:rgb(255, 255, 255); Desired background color */
   display: flex;
+  padding: auto;
   justify-content: center;
   align-items: center;
+  border-radius: 50px;
+  /* background: #c5c4c9; */
 }
 
 .image-container img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 80%;
+  height: 100%;
+
+  object-fit: cover;
 }
 
 /* CSS File for Styling Quote */
@@ -127,6 +132,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 20px 0px 0px #333;
   border: 2px solid #333;
+  /* border: 2px theme; */
   margin: auto;
 }
 

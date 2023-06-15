@@ -58,11 +58,14 @@ export default function Greeting(props) {
 
             
           </div> */}
-          <div className="image-container">
+          <div
+            className="image-container"
+            style={{ marginLeft: "100px", marginTop: "90px" }}
+          >
             <img
               alt="Abinash_Bordoloi"
               src={require("../../assests/images/profile.jpg")}
-              className="myimage"
+              className="image-container img"
             ></img>
           </div>
         </div>
