@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+// import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -38,12 +38,36 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
-<<<<<<< HEAD
+
+
+              <div className="quote-container" style={{ marginTop: "10px" }}>
+                <p className="quote-text">
+                  {" "}
+                  "The only way to do great work is to love what you do."
+                </p>
+                <p className="quote-author">- Steve Jobs</p>
+              </div>
+            </div>
+          </div>
+
+
+            
+          </div> */}
+          <div
+            className="image-container"
+            style={{ marginLeft: "100px", marginTop: "90px" }}
+          >
+            <img
+              alt="Abinash_Bordoloi"
+              src={require("../../assests/images/profile.jpg")}
+              className="image-container img"
+            ></img>
+
             </div>
           </div>
           <div className="image-container">
             <img src="src/assets/images/profile.jpg" alt="Your Image"></img>
-=======
+
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
@@ -51,12 +75,9 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
+           
             <FeelingProud theme={theme} />
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
+
           </div>
         </div>
       </div>

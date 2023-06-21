@@ -340,38 +340,67 @@
 
 // export default LogoLoader;
 
+// import React, { useEffect, useRef } from "react";
+// import "./LoaderLogo.css";
+
+// const LoaderLogo = () => {
+//   const logoRef = useRef(null);
+
+//   useEffect(() => {
+//     const logo = logoRef.current;
+//     const paths = logo.querySelectorAll("path");
+
+//     paths.forEach((path, index) => {
+//       const length = path.getTotalLength();
+
+//       // Set initial styles
+//       path.style.strokeDasharray = length;
+//       path.style.strokeDashoffset = length;
+//       path.style.animation = `logoAnimation 2s ease-in-out ${index * 0.2}s infinite`;
+//     });
+//   }, []);
+
+//   return (
+//     <svg
+//       ref={logoRef}
+//       className="loader_logo"
+//       viewBox="0 0 440 305"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       logo_path = "LogoSplash.mp4"
+
+//       Add your logo path data and styles here
+//     </svg>
+//   );
+// };
+
+// export default LoaderLogo;
+
 import React, { useEffect, useRef } from "react";
 import "./LoaderLogo.css";
 
 const LoaderLogo = () => {
-  const logoRef = useRef(null);
+  const videoRef = useRef(null);
 
   useEffect(() => {
-    const logo = logoRef.current;
-    const paths = logo.querySelectorAll("path");
+    const video = videoRef.current;
 
-    paths.forEach((path, index) => {
-      const length = path.getTotalLength();
-
-      // Set initial styles
-      path.style.strokeDasharray = length;
-      path.style.strokeDashoffset = length;
-      path.style.animation = `logoAnimation 2s ease-in-out ${index * 0.2}s infinite`;
+    // Add event listener to restart the video when it ends
+    video.addEventListener("ended", () => {
+      video.currentTime = 0;
+      video.play();
     });
+
+    // Start the video playback
+    video.play();
   }, []);
 
   return (
-    <svg
-      ref={logoRef}
-      className="loader_logo"
-      viewBox="0 0 440 305"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      logo_path = "LogoSplash.mp4"
-
-      Add your logo path data and styles here
-    </svg>
+    <video ref={videoRef} className="loader_logo" autoPlay loop muted>
+      <source src="assests/images/LogoSplash.mp4" type="mp4" />
+      {/* Add additional video source types if needed */}
+    </video>
   );
 };
 

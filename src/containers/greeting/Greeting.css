@@ -93,53 +93,66 @@
     justify-content: center;
   }
 }
-<<<<<<< HEAD
+
 
 .image-container {
-  width: 500px;  /* Desired width */
-  height: 510px; /* Desired height */
-  background:rgb(255, 255, 255); /* Desired background color */
+  width: 300px; /* Desired width */
+  height: 525px; /* Desired height */
+  background: auto;
+  /* background:rgb(255, 255, 255); Desired background color */
   display: flex;
+  padding: auto;
   justify-content: center;
   align-items: center;
+  border-radius: 50px;
+  /* background: #c5c4c9; */
 }
 
 .image-container img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 80%;
+  height: 100%;
+
+  object-fit: cover;
 }
 
 /* CSS File for Styling Quote */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .quote-container {
-  width: 400px;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin: 20px auto;
+  width: auto;
+  background-color: auto;
+  padding: center;
+  padding-right: 20px;
+
+  /* padding: 2px; */
+  border-radius: 10px;
+  box-shadow: 0 20px 0px 0px #333;
+  border: 2px solid #333;
+  /* border: 2px theme; */
+  margin: auto;
 }
 
 .quote-text {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+  color: #333;
+  font-style: italic;
 }
 
 .quote-author {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: right;
-  margin-top: 10px;
+  color: auto;
+  margin-top: 5px;
 }
 
 
 
-=======
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
+
