@@ -39,6 +39,7 @@ export default function Greeting(props) {
                 />
               </div>
 
+
               <div className="quote-container" style={{ marginTop: "10px" }}>
                 <p className="quote-text">
                   {" "}
@@ -48,12 +49,6 @@ export default function Greeting(props) {
               </div>
             </div>
           </div>
-
-          {/* <div className="quote-container">
-
-            <p className="quote-text"> "The only way to do great work is to love what you do."</p>
-            <p className="quote-author">- Steve Jobs</p>
-
 
 
             
@@ -67,6 +62,22 @@ export default function Greeting(props) {
               src={require("../../assests/images/profile.jpg")}
               className="image-container img"
             ></img>
+
+            </div>
+          </div>
+          <div className="image-container">
+            <img src="src/assets/images/profile.jpg" alt="Your Image"></img>
+
+              {/* <div className="button-greeting-div">
+              <Button text="Contact me" href="#contact" />
+              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+            </div> */}
+            </div>
+          </div>
+          <div className="greeting-image-div">
+           
+            <FeelingProud theme={theme} />
+
           </div>
         </div>
       </div>
