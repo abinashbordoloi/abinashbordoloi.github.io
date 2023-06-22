@@ -437,7 +437,7 @@ const degrees = {
     {
       title: "Gauahti Univeristy Institute of Science and Technology",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "guist_logo.jpg",
+      logo_path: "guist_logo.png",
       alt_name: "GUIST Gauhati University",
       duration: "2020 - 2024",
       descriptions: [
