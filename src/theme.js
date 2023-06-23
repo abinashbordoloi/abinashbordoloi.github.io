@@ -266,17 +266,18 @@ export const neonTheme = {
 };
 
 export const whiteTheme = {
-  body: "#dcdee6",
+  body: "#ffffff",
   text: "#000000",
   expTxtColor: "#000000",
-  highlight: "white",
+  highlight: "grey",
   dark: "#000000",
-  secondaryText: "#666666",
-  imageHighlight: "#000000",
-  compImgHighlight: "#FFFFFF",
-  jacketColor: "grey",
-  headerColor: "#6a7293",
-  splashBg: "#FFFFFF",
+  secondaryText: "black",
+  imageHighlight: "#091150",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#3a3a3d",
+  headerColor: "lightblue",
+  //headerColor: "#6a7293",
+  splashBg: "#ffffff",
 };
 
 export const chosenTheme = whiteTheme;
