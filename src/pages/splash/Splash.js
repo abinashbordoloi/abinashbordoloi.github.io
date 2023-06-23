@@ -86,7 +86,9 @@ class Splashscreen extends Component {
     this.setState({ videoLoaded: true });
     setTimeout(() => {
       // Hide the splash screen after the desired duration
+
       document.getElementById("splash-screen").style.display = "none";
+      // this.props.history.push("/home");
     }, 3000); // Adjust the duration in milliseconds (e.g., 3000 for 3 seconds)
   };
 

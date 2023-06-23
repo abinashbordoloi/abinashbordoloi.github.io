@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Switch, HashRouter, Redirect } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splashscreen from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -17,10 +17,13 @@ export default class Main extends Component {
 
     return (
       <div>
-        {isSplash && <Splashscreen showSplash={true} />}
+        {/* {isSplash && <Splashscreen showSplash={true} />} */}
         <HashRouter basename="/">
           <Switch>
-            <Route exact path="/" Splashscreen />
+            {isSplash && <Splashscreen showSplash={true} />}
+            {/* {<Redirect exact from="/" to="/home" />}  */}
+
+            {/* <Route exact path="/" component = {Splashscreen}/> */}
 
             <Route
               path="/home"
