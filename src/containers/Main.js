@@ -7,24 +7,31 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
-import { settings } from "../portfolio.js";
+// import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 // import LoaderLogo from "../components/Loader/LoaderLogo";
 
 export default class Main extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showSplash: true,
+    };
+  }
   render() {
-    const { isSplash } = settings;
-
+    const { showSplash } = this.state;
     return (
       <div>
-        {/* {isSplash && <Splashscreen showSplash={true} />} */}
         <HashRouter basename="/">
           <Switch>
-            {isSplash && <Splashscreen showSplash={true} />}
-            {/* {<Redirect exact from="/" to="/home" />}  */}
-
-            {/* <Route exact path="/" component = {Splashscreen}/> */}
-
+            {/* {isSplash && <Route  path="/" component={Splashscreen} />} */}
+            <Route exact path="/">
+              {showSplash ? (
+                <Splashscreen showSplash={true} />
+              ) : (
+                <Redirect to="/home" />
+              )}
+            </Route>
             <Route
               path="/home"
               render={(props) => <Home {...props} theme={this.props.theme} />}
@@ -54,12 +61,22 @@ export default class Main extends Component {
                 <Contact {...props} theme={this.props.theme} />
               )}
             />
+
             <Route
+              // path="/splash"
+              // render={(props) => (
+              //   <Splashscreen {...props} theme={this.props.theme} />
+              // )}
+              exact
               path="/splash"
-              render={(props) => (
-                <Splashscreen {...props} theme={this.props.theme} />
+            >
+              {showSplash ? (
+                <Splashscreen showSplash={true} />
+              ) : (
+                <Redirect to="/home" />
               )}
-            />
+            </Route>
+
             <Route
               path="/projects"
               render={(props) => (

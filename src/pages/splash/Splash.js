@@ -61,6 +61,7 @@
 // export default Splashscreen;
 
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
 class Splashscreen extends Component {
   constructor(props) {
@@ -88,7 +89,8 @@ class Splashscreen extends Component {
       // Hide the splash screen after the desired duration
 
       document.getElementById("splash-screen").style.display = "none";
-      // this.props.history.push("/home");
+      this.props.history.push("/home");
+      //  this.setState({showSplash: false});
     }, 3000); // Adjust the duration in milliseconds (e.g., 3000 for 3 seconds)
   };
 
@@ -136,4 +138,4 @@ class Splashscreen extends Component {
   }
 }
 
-export default Splashscreen;
+export default withRouter(Splashscreen);
