@@ -10,7 +10,7 @@ const seo = {
   title: "Abinash's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  image: "../src/assests/images/Abinash.png",
+  image: "../src/assests/images/profile.jpg",
   keywords: [
     "AI Engineer",
     "Data Scientist",
@@ -25,13 +25,6 @@ const seo = {
     "IITM",
     "Developer",
   ],
-  url: " https://abinashbordoloi.github.io/",
-
-  siteUrl: " https://abinashbordoloi.github.io/",
-  siteLanguage: "en_US",
-  siteLocale: "en_us",
-  twitterUsername: "Abinash Bordoloi",
-  author: "Abinash Bordoloi",
 
   og: {
     title: "Abinash Bordoloi's Portfolio",
@@ -54,15 +47,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/abinashbordoloi",
@@ -592,139 +576,6 @@ const certifications = {
   ],
 };
 
-// // Experience Page
-// const experience = {
-//   title: "Experience",
-//   subtitle: "Work, Internship and Volunteership",
-//   description:
-//     "Description of my work, internship and volunteership experience in my student jouney till now. [UPDATED June 2023]",
-//   header_image_path: "experience.svg",
-//   section: [
-//     {
-//       title: "Work",
-//       experiences: [
-//         {
-//           title: "Web Developer",
-//           company: "HiFi Vision India",
-//           company_url: "https://www.hifivisionindia.com/",
-//           logo_path: "hifivision_logo.png",
-//           duration: "June 2021 - PRESENT",
-//           location: "Work From Home",
-//           description:
-//             "I am working as a web developer for the marketing team in HiFi Vision India. I am responsible for the development and maintenance of the website. I am also working on the SEO of the website.",
-//           color: "#ee3c26",
-//         },
-//       ],
-//     },
-
-//     {
-//       title: "Internships",
-//       experiences: [
-//         {
-//           title: "Open Source Contributor",
-//           company: "GirlScript Summer of Code",
-//           company_url: "https://www.gssoc.tech/",
-//           logo_path: "gssoc_logo.png",
-//           duration: "june 2023 - aug 2023",
-//         },
-
-//         {
-//           title: "",
-//           company: "TikTok Inc.",
-//           company_url: "https://www.tiktok.com/en/",
-//           logo_path: "tiktok_logo.png",
-//           duration: "May 2022 - Aug 2022",
-//           location: "San Francisco, USA",
-//           description:
-//             "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-//           color: "#000000",
-//         },
-//         {
-//           title: "Data Science Research Intern",
-//           company: "Delhivery Pvt. Ltd.",
-//           company_url: "https://www.delhivery.com/",
-//           logo_path: "delhivery_logo.png",
-//           duration: "May 2019 - Sept 2019",
-//           location: "Gurgaon, Haryana",
-//           description:
-//             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-//           color: "#ee3c26",
-//         },
-//         {
-//           title: "Data Science Intern",
-//           company: "Yoshops",
-//           company_url: "https://yoshops.com/",
-//           logo_path: "yoshops_logo.png",
-//           duration: "july 2022 - sept 2022",
-//           location: "Work From Home",
-//           description: "",
-//         },
-//       ],
-//     },
-//     {
-//       title: "Volunteerships",
-//       experiences: [
-//         {
-//           title: "Google Explore ML Facilitator",
-//           company: "Google",
-//           company_url: "https://about.google/",
-//           logo_path: "google_logo.png",
-//           duration: "June 2019 - April 2020",
-//           location: "Hyderabad, Telangana",
-//           description:
-//             "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-//           color: "#4285F4",
-//         },
-//         {
-//           title: "Microsoft Student Partner",
-//           company: "Microsoft",
-//           company_url: "https://www.microsoft.com/",
-//           logo_path: "microsoft_logo.png",
-//           duration: "Aug 2019 - May 2020",
-//           location: "Hyderabad, Telangana",
-//           description:
-//             "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-//           color: "#D83B01",
-//         },
-//         {
-//           title: "Mozilla Campus Captain",
-//           company: "Mozilla",
-//           company_url: "https://www.mozilla.org/",
-//           logo_path: "mozilla_logo.png",
-//           duration: "Oct 2019 - May 2020",
-//           location: "Kurnool, Andhra Pradesh",
-//           description:
-//             "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-//           color: "#000000",
-//         },
-//         {
-//           title: "Developer Students Club Member",
-//           company: "DSC IIITDM Kurnool",
-//           company_url:
-//             "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-//           logo_path: "dsc_logo.png",
-//           duration: "Jan 2018 - May 2020",
-//           location: "Kurnool, Andhra Pradesh",
-//           description:
-//             "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-//           color: "#0C9D58",
-//         },
-//         {
-//           title: "Developer Program Member",
-//           company: "Github",
-//           company_url: "https://github.com/",
-//           logo_path: "github_logo.png",
-//           duration: "July 2019 - PRESENT",
-//           location: "Work From Home",
-//           description:
-//             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-//           color: "#181717",
-//         },
-//       ],
-//     },
-//   ],
-// };
-
 // Experience Page
 const experience = {
   title: "Experience",
@@ -740,12 +591,12 @@ const experience = {
         {
           title: "Web Developer",
           company: "HiFi Vision India",
-          // company_url: "https://www.hifivisionindia.com/",
+          company_url: "http://visionindia.bz/",
+          logo_path: "vision_india.png",
           duration: "June 2021 - PRESENT",
           location: "Work From Home",
           description:
             "I am working as a web developer for the marketing team in HiFi Vision India. I am responsible for the development and maintenance of the website. I am also working on the SEO of the website.",
-          color: "#ee3c26",
         },
       ],
     },
@@ -763,38 +614,34 @@ const experience = {
           color: "#4285F4",
         },
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
           title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          company: "Yoshops",
+          company_url: "https://yoshops.com/",
+          logo_path: "yoshops_logo.png",
+          duration: "july 2022 - sept 2022",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "As a Data Scientist Intern, I undertook a pivotal role in automating Excel workflows and extracting valuable insights from e-commerce websites. Through the implementation of web scraping techniques using Python libraries like Beautiful Soup, I collected and analyzed data related to product sales",
+        },
+        {
+          title: "ineuron Intern",
+          company: "ineuron",
+          company_url: "https://ineuron.ai/",
+          logo_path: "ineuron-logo.png",
+          duration: "may 2022 - july 2022",
+          location: "Work From Home",
+          description:
+            "An internship with iNeuron for Fraud Transaction Detection project using Machine Learning and Deep Learning. I have worked on the project of predicting fraud transactions based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily fraud transactions. (2) To embed feature in the model which can explain the seasonal major changes in fraud transactions based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+        },
+        {
+          title: "Teaching Assistant",
+          company: "Coding Ninjas",
+          company_url: "https://www.codingninjas.com/",
+          logo_path: "coding-ninja.jpg",
+          duration: "Sept 2021 - Dec 2021",
+          location: "Work From Home",
+          description:
+            "I am a Teaching Assistant for the course of Data Structures and Algorithms in Python. I am responsible for clearing the doubts of students and helping them in their assignments and projects. I am also responsible for conducting doubt sessions and taking doubt classes.",
         },
       ],
     },
@@ -808,12 +655,16 @@ const experience = {
             "https://gdsc.community.dev/gauhati-university-guwahati/-",
           logo_path: "dsc_logo.png",
           duration: "2022/23",
+          description:
+            "I am the AI/ML Lead of GDSC Gauhati University. I am responsible for conducting workshops and events related to AI/ML. I am also responsible for the development of the website of GDSC Gauhati University.",
         },
         {
           title: "WDC Member",
           company: "Web Development Club",
           company_url: "https://www.instagram.com/wdc_gauhati_university/",
           logo_path: "wdc_logo.png",
+          description:
+            "I am a member of Web Development Club, Gauhati University. We discuss about the latest technologies and their applications in the real world. We also organise workshops and seminars on various topics.",
         },
 
         {

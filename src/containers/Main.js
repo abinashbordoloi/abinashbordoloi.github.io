@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import LoaderLogo from "../components/Loader/LoaderLogo";
 
 export default class Main extends Component {
   render() {
@@ -17,7 +18,8 @@ export default class Main extends Component {
         <div>
           <HashRouter basename="/">
             <Switch>
-              <Route path="/" exact component={Splash} />
+              <Route path="/" />
+
               <Route
                 path="/home"
                 render={(props) => <Home {...props} theme={this.props.theme} />}

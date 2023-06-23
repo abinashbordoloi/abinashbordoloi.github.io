@@ -376,34 +376,34 @@
 
 // export default LoaderLogo;
 
-// import React, { useEffect, useRef } from "react";
-// import "./LoaderLogo.css";
+import React, { useEffect, useRef } from "react";
+import "./LoaderLogo.css";
 
-// const LoaderLogo = () => {
-//   const videoRef = useRef(null);
+const LoaderLogo = () => {
+  const videoRef = useRef(null);
 
-//   useEffect(() => {
-//     const video = videoRef.current;
+  useEffect(() => {
+    const video = videoRef.current;
 
-//     const restartVideo = () => {
-//       video.currentTime = 0;
-//       video.play();
-//     };
+    const restartVideo = () => {
+      video.currentTime = 0;
+      video.play();
+    };
 
-//     video.addEventListener("ended", restartVideo);
+    video.addEventListener("ended", restartVideo);
 
-//     video.play();
+    video.play();
 
-//     return () => {
-//       video.removeEventListener("ended", restartVideo);
-//     };
-//   }, []);
+    return () => {
+      video.removeEventListener("ended", restartVideo);
+    };
+  }, []);
 
-//   return (
-//     <video ref={videoRef} className="loader_logo" autoPlay loop muted>
-//       <source src="assets/images/LogoSplash.mp4" type="video/mp4" />
-//     </video>
-//   );
-// };
+  return (
+    <video ref={videoRef} className="loader_logo" autoPlay loop muted>
+      <source src="assets/images/LogoSplash.mp4" type="video/mp4" />
+    </video>
+  );
+};
 
-// export default LoaderLogo;
+export default LoaderLogo;
