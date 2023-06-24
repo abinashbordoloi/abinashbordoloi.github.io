@@ -1,4 +1,4 @@
-.project-title {
+/*.project-title {
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
@@ -15,7 +15,7 @@
   gap: 1rem 1rem;
 }
 
-/* Media Query */
+Media Query
 @media (max-width: 1380px) {
   .project-title {
     font-size: 40px;
@@ -29,4 +29,4 @@
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-}
+} */

@@ -42,6 +42,7 @@
     "@iconify/icons-logos": "^1.0.9",
     "@iconify/react": "^1.1.1",
     "dotenv": "^6.2.0",
+    "hint": "^7.1.9",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"

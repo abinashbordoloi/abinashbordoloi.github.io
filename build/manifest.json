@@ -1,0 +1,46 @@
+{
+  "name": "Abinash's Portfolio",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icons/abinash_36.jpg",
+      "sizes": "36x36",
+      "type": "image/jpg",
+      "density": "0.75"
+    },
+    {
+      "src": "/icons/abinash_48.jpg",
+      "sizes": "48x48",
+      "type": "image/jpg",
+      "density": "1.0"
+    },
+    {
+      "src": "/icons/abinash_72.jpg",
+      "sizes": "72x72",
+      "type": "image/jpg",
+      "density": "1.5"
+    },
+    {
+      "src": "/icons/abinash_96.jpg",
+      "sizes": "96x96",
+      "type": "image/jpg",
+      "density": "2.0"
+    },
+    {
+      "src": "/icons/abinash_144.jpg",
+      "sizes": "144x144",
+      "type": "image/jpg",
+      "density": "3.0"
+    },
+    {
+      "src": "/icons/abinash_192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg",
+      "density": "4.0"
+    }
+  ],
+  "short_name": "Portfolio",
+  "start_url": ".",
+  "theme_color": "#000000"
+}
