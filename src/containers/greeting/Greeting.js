@@ -49,15 +49,6 @@ export default function Greeting(props) {
             </div>
           </div>
 
-          {/* <div className="quote-container">
-
-            <p className="quote-text"> "The only way to do great work is to love what you do."</p>
-            <p className="quote-author">- Steve Jobs</p>
-
-
-
-            
-          </div> */}
           <div
             className="image-container"
             style={{ marginLeft: "100px", marginTop: "90px" }}
