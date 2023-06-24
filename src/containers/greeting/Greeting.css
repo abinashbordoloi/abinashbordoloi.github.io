@@ -96,21 +96,21 @@
 
 .image-container {
   width: 300px; /* Desired width */
-  height: 525px; /* Desired height */
+  height: 525px; /*Desired height */
   background: auto;
-  /* background:rgb(255, 255, 255); Desired background color */
+  /* background:rgb(255, 255, 255); desired background color */
   display: flex;
   padding: auto;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  border-radius: 50px;
-  /* background: #c5c4c9; */
+  border-radius: 10px;
+  background: auto;
 }
 
 .image-container img {
   width: 80%;
   height: 100%;
-
+  background-size: contain;
   object-fit: cover;
 }
 

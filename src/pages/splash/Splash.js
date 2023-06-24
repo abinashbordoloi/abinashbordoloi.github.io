@@ -107,7 +107,7 @@ class Splashscreen extends Component {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: "#f1f1f1",
+      backgroundColor: "black",
     };
 
     const loadingStyles = {
