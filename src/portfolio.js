@@ -12,6 +12,15 @@ const seo = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   image: "../src/assests/images/profile.jpg",
   keywords: [
+    "Abinash Bordoloi",
+    "Abinash",
+    "abinashbordoloi",
+    "abinashbordoloi07",
+    "abinash_bordoloi",
+    "abinash_bordoloi07",
+    "abinash bordoloi",
+
+    "Gauhati University",
     "AI Engineer",
     "Data Scientist",
     "Machine Learning Engineer",
