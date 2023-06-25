@@ -19,7 +19,6 @@ const seo = {
     "abinash_bordoloi",
     "abinash_bordoloi07",
     "abinash bordoloi",
-
     "Gauhati University",
     "AI Engineer",
     "Data Scientist",

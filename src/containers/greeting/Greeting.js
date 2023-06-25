@@ -38,7 +38,6 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
-
               <div className="quote-container" style={{ marginTop: "10px" }}>
                 <p className="quote-text">
                   {" "}
