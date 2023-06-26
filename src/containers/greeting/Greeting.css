@@ -101,7 +101,7 @@
   /* background:rgb(255, 255, 255); desired background color */
   display: flex;
   padding: auto;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   border-radius: 10px;
   background: auto;
@@ -137,7 +137,7 @@ body {
 }
 
 .quote-text {
-  font-size: 20.5px;
+  font-size: auto;
   font-weight: 500;
   text-align: right;
   color: #0b0586;
