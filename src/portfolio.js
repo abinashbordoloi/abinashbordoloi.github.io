@@ -473,6 +473,14 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Foundation Level Certification in Data Science and Programming",
+      subtitle: "IIT Madras",
+      logo_path: "iitm_Logo.png",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1Ty0CNuKyj00BQBUK61nfJ0o6Bh0XOuh8",
+      alt_name: "IITM",
+    },
+    {
       title: "AI Programming with Python Nenodegree",
       subtitle: "Udacity",
       logo_path: "udacity_logo.png",
@@ -483,103 +491,101 @@ const certifications = {
 
     // https://storage.googleapis.com/online-degree-app-production-documents/CERTIFICATE/FOUNDATION_CERTIFICATE/F2_2022/917c7068c2503b4804168f55d05cd1053f50809c5f1c6baff01b7b5b81d7d7d3.pdf?Expires=1686355414&GoogleAccessId=production-document-storage-si%40online-degree-app.iam.gserviceaccount.com&Signature=PECGaaduHMCDy57W1vMpxXgXi8VX%2Bv2HQjV9LvzKTHsIRA5dJzE5Q9ZuRx951GgNxVBP%2FwlD4x%2BgNndp9zzVQ6lqL2a0Omnd4KYUU5IWVQ%2BaFlQLsGvi4Nuzye9nIjoJIUbAOHEBfoqTLx6EAAp0NFF7T8nSQcaxQAWHtkdLwo%2FT0%2BJLPIaM9JOQV5HJYKF8fEu2cQjBBTKYXxg8ImUqz1tZ573TSTck5BhUwtnNnGaXhzuIBfrzN3WEDVbUF5FNCL%2BLLfFdRZXv63yoIFGItOCRGfbAJNVJPw2gZ3jN4GIH8kBnnaEmgPogh2CK5pY1r4KuTvuy1xOny0MvdJAyCw%3D%3D
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "AWS Machine Learning Foundations ",
+      subtitle: "- Amazon Web Services",
+      logo_path: "aws.jpg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/7ad7f012-a2c3-4082-a045-fd0c652254f9.pdf",
+      alt_name: "AWS",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Getting Starte with AWS Machine Learning",
+      subtitle: "- AWS",
+      logo_path: "aws.jpg",
+      certificate_link:
+        "https://coursera-certificate-images.s3.amazonaws.com/NQFFVH4LJPCD",
+      alt_name: "AWS",
+    },
+
+    {
+      title: "ALGS201x: Data Structures Fundamentals",
+      subtitle: "- San Diego University",
+      logo_path: "DSA.png",
+      certificate_link:
+        "https://courses.edx.org/certificates/ac50ec6b61494e76841d7711f2d85b97",
+      alt_name: "DSA",
+    },
+    {
+      title: "Nasscom Python",
+      subtitle: "- Coding Ninjas",
+      logo_path: "coding-ninja.jpg",
+      certificate_link:
+        "http://files.codingninjas.in/certificate1804047fb2113b43dcbdaac7744598ce8517b46.pdf",
+    },
+
+    {
+      title: "Introduction to Data Vitualization with Matplotlib",
+      subtitle: "- Datacamp",
+      logo_path: "datacamp.jpeg",
+      certificate_link:
+        "https://www.datacamp.com/statement-of-accomplishment/course/d2ad3a14305e478751e7b1c286bd9a4214ed673b",
+      alt_name: "Datacamp",
+    },
+    {
+      title: "Data Manipulation with Pandas",
+      subtitle: "- Datacamp",
+      logo_path: "datacamp.jpeg",
+      certificate_link:
+        "https://www.datacamp.com/statement-of-accomplishment/course/457f75a1d7612812f734c32acf64aafaf477f7c1",
+      alt_name: "Datacamp",
+    },
+    {
+      title: "Foundation: Data, Data Everywhere",
+      subTitle: "- Google",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+        "https://www.coursera.org/account/accomplishments/certificate/5RVNYDYGW5EA",
       alt_name: "Google",
-      color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title:
+        "Artificial Intelligence Foundations an industry recommended and validated course aligned to SSC NASSCOM Foundation AI curriculum",
+      subtitle: "- NASSCOM",
+      logo_path: "skillup.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://courses-in.skillup.online/certificates/c0c046225ad241e8a97d177be79cfbbe",
+      alt_name: "ai foundations",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
+      title: "Learn Java-  Pro Certification",
+      subtitle: "- Codechef",
+      logo_path: "codechef.png",
+      certificate_link: "https://www.codechef.com/certificates/public/a34ce53",
+      alt_name: "Codechef",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+      title: "Python Assesement",
+      subtitle: "- HackerRank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/ca5c03998898",
+      alt_name: "HackerRank",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      title: "Traning on Python Programming",
+      subtitle: "- RCPL",
+      logo_path: "rcpl.png",
       certificate_link:
         "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+      alt_name: "RCPL",
     },
+
     {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Linux Administration with Scripting",
+      subtitle: "- RCPL",
+      logo_path: "rcpl.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://drive.google.com/file/d/1CVyYSmmDdSZs76Ecl2hgrY_0I1Oh5ct-/view",
+      alt_name: "RCPL",
     },
   ],
 };
@@ -725,9 +731,11 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_abinash.png",
+    profile_image_path: "abinash_gif.gif",
+    profile_image_size: "100px",
+
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, , React, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, Web Dev, DSA, Computer Science Subjects, Cloud and Opensource Development.",
   },
 
   addressSection: {
@@ -737,7 +745,7 @@ const contactPageData = {
     country: "IN",
     region: "Assam",
     postalCode: "781014",
-    streetAddress: "Opp0site to NH-37",
+    streetAddress: "Opposite to NH-37",
     avatar_image_path: "address_image.svg",
     location_map_link:
       "https://www.google.com/maps/place/Guwahati,+Assam/@26.1432627,91.5377231,11z/data=!3m1!4b1!4m6!3m5!1s0x375a5a287f9133ff:0x2bbd1332436bde32!8m2!3d26.1157917!4d91.7085933!16zL20vMDNmeGZ5?entry=ttu",
