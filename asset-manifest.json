@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.fd57e19c.css",
-    "main.js": "/static/js/main.e238a69d.js",
+    "main.js": "/static/js/main.66cddece.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/profile.jpg": "/static/media/profile.b7c11070d3b179b8aa16.jpg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
+    "static/media/abinash_gif.gif": "/static/media/abinash_gif.ed78d62559a19e407354.gif",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/nss_logo.png": "/static/media/nss_logo.b9bcacbfb16c78daabdd.png",
     "static/media/iitm_Logo.png": "/static/media/iitm_Logo.d8c6b812c2d361ce358e.png",
@@ -14,6 +15,7 @@
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/guist_logo.jpeg": "/static/media/guist_logo.fe0e02b11e004db79d21.jpeg",
     "static/media/wdc_logo.png": "/static/media/wdc_logo.c6d1dea3eee06aa50ac8.png",
+    "static/media/hackerrank.png": "/static/media/hackerrank.12929e2730895867d7fe.png",
     "static/media/iu_logo.png": "/static/media/iu_logo.5f44628376f5171bea0f.png",
     "static/media/animated_abinash.png": "/static/media/animated_abinash.761c12b12d4b1ec6fa12.png",
     "static/media/dsc_logo.png": "/static/media/dsc_logo.fdf993910e3f48d0cf30.png",
@@ -21,6 +23,7 @@
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
     "static/media/gssoc.png": "/static/media/gssoc.2add5f68af055d2e6ea0.png",
     "static/media/gssoc_logo.png": "/static/media/gssoc_logo.2add5f68af055d2e6ea0.png",
+    "static/media/rcpl.png": "/static/media/rcpl.5a8af6c8d4c2887a02f5.png",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
@@ -33,6 +36,7 @@
     "static/media/contactMail.png": "/static/media/contactMail.d4c9ac42fba95158a55c.png",
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.3ef4f1acb44a2df412bf.woff",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/codechef.png": "/static/media/codechef.a0dde874ca0ebba5637e.png",
     "static/media/ibm_logo.png": "/static/media/ibm_logo.8204bba7daa4eedf644b.png",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.dc957891d535aa198135.woff",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.be1b6b9bacd5f2fb1c7e.png",
@@ -41,8 +45,10 @@
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
     "static/media/intel_logo.jpg": "/static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.42a2cdaf132097cc499e.svg",
+    "static/media/hankerrank.jpg": "/static/media/hankerrank.7a0c042eb30415290e42.jpg",
     "static/media/udacity_logo.png": "/static/media/udacity_logo.ba616819551646d7d976.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.f861b03b5a2d1a28c198.svg",
+    "static/media/aws.jpg": "/static/media/aws.d8b5d584f7c2ac865dd6.jpg",
     "static/media/muffito_logo.png": "/static/media/muffito_logo.a40e290031eaf389bde1.png",
     "static/media/coding-ninja.jpg": "/static/media/coding-ninja.25d09a829ea8a0e22eaf.jpg",
     "static/media/LogoSplash.mp4": "/static/media/LogoSplash.73619b13aec19cf36c23.mp4",
@@ -56,8 +62,10 @@
     "static/media/legato_logo.png": "/static/media/legato_logo.227e72c7979187840ba3.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.967f31dad3158d5be07b.svg",
     "static/media/github_logo.png": "/static/media/github_logo.15e591a7397b9ef45656.png",
+    "static/media/skillup.png": "/static/media/skillup.3410ef927580a9d657fc.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "/static/media/projects_image.0a8062569966b4888c7c.svg",
+    "static/media/DSA.png": "/static/media/DSA.d5ca6dd83aa9ab56abe5.png",
     "static/media/programmer.svg": "/static/media/programmer.d3060f7bf0527835d72e.svg",
     "static/media/jsFramework.svg": "/static/media/jsFramework.911c595a22a28c7b6f78.svg",
     "static/media/address_image.svg": "/static/media/address_image.3385d92e5e426e57a5b1.svg",
@@ -78,10 +86,10 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.fd57e19c.css.map": "/static/css/main.fd57e19c.css.map",
-    "main.e238a69d.js.map": "/static/js/main.e238a69d.js.map"
+    "main.66cddece.js.map": "/static/js/main.66cddece.js.map"
   },
   "entrypoints": [
     "static/css/main.fd57e19c.css",
-    "static/js/main.e238a69d.js"
+    "static/js/main.66cddece.js"
   ]
 }
