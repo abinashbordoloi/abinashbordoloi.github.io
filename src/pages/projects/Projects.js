@@ -1,125 +1,85 @@
-import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-<<<<<<< HEAD
-// import PublicationCard from "../../components/publicationsCard/PublicationCard";
-=======
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
-import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
-import { Fade } from "react-reveal";
-import {
-  greeting,
-  projectsHeader,
-<<<<<<< HEAD
-  // publicationsHeader,
-  // publications,
-=======
-  publicationsHeader,
-  publications,
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
-} from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
-import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
+// import React, { useState, useEffect } from "react";
+// import ApolloClient from "apollo-boost";
+// import { gql } from "apollo-boost";
+// import "./Project.css";
+// import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+// import Button from "../../components/button/Button";
+// import { openSource } from "../../portfolio";
+// import { greeting } from "../../portfolio.js";
 
-class Projects extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="projects-main">
-        <Header theme={theme} />
-        <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
-            <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
-              </div>
-              <div className="projects-heading-text-div">
-                <h1
-                  className="projects-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {projectsHeader.title}
-                </h1>
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {projectsHeader["description"]}
-                </p>
-              </div>
-            </div>
-          </Fade>
-        </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
+// export default function Projects() {
+//   const [repo, setrepo] = useState([]);
 
-<<<<<<< HEAD
-        {/* Publications 
-=======
-        {/* Publications  */}
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
-        {publications.data.length > 0 ? (
-          <div className="basic-projects">
-            <Fade bottom duration={2000} distance="40px">
-              <div className="publications-heading-div">
-                <div className="publications-heading-text-div">
-                  <h1
-                    className="publications-heading-text"
-                    style={{ color: theme.text }}
-                  >
-                    {publicationsHeader.title}
-                  </h1>
-                  <p
-                    className="projects-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                  >
-                    {publicationsHeader["description"]}
-                  </p>
-                </div>
-              </div>
-            </Fade>
-          </div>
-<<<<<<< HEAD
-        ) : null} */}
+//   useEffect(() => {
+//     getRepoData();
+//   }, []);
 
-        {/* <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
-          })}
-        </div> */}
-=======
-        ) : null}
+//   function getRepoData() {
+//     const client = new ApolloClient({
+//       uri: "https://api.github.com/graphql",
+//       request: (operation) => {
+//         operation.setContext({
+//           headers: {
+//             authorization: `Bearer ${atob(openSource.githubConvertedToken)}`,
+//           },
+//         });
+//       },
+//     });
 
-        <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
-          })}
-        </div>
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640
+//     client
+//       .query({
+//         query: gql`
+//           {
+//             repositoryOwner(login: "${openSource.githubUserName}") {
+//               ... on User {
+//                 pinnedRepositories(first: 6) {
+//                   edges {
+//                     node {
+//                       nameWithOwner
+//                       description
+//                       forkCount
+//                       stargazers {
+//                         totalCount
+//                       }
+//                       url
+//                       id
+//                       diskUsage
+//                       primaryLanguage {
+//                         name
+//                         color
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         `,
+//       })
+//       .then((result) => {
+//         setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+//         console.log(result);
+//       });
+//   }
 
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
-      </div>
-    );
-  }
-}
+//   function setrepoFunction(array) {
+//     setrepo(array);
+//   }
 
-export default Projects;
+//   return (
+//     <div className="main" id="opensource">
+//       <h1 className="project-title">Open Source Projects</h1>
+//       <div className="repo-cards-div-main">
+//         {repo.map((v, i) => {
+//           return <GithubRepoCard repo={v} key={v.node.id} />;
+//         })}
+//       </div>
+//       <Button
+//         text={"More Projects"}
+//         className="project-button"
+//         href={greeting.githubProfile}
+//         newTab={true}
+//       />
+//     </div>
+//   );
+// }

@@ -33,8 +33,4 @@ export default function socialMedia(props) {
       })}
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3f869988c6d5150de0e7b6126a5caa77da91b640

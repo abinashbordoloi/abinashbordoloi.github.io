@@ -1,5 +1,5 @@
 // theme.js
-export const blueTheme = {
+export const blueTheme1 = {
   body: "#EDF9FE",
   text: "#001C55",
   expTxtColor: "#000a12",
@@ -195,4 +195,89 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = tealTheme;
+export const blueTheme2 = {
+  body: "#F0F6FF",
+  text: "#183A8D",
+  expTxtColor: "#000A12",
+  highlight: "#70A9FF",
+  dark: "#0A1C3A",
+  secondaryText: "#2754B3",
+  imageHighlight: "#4886FF",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#083E77",
+  headerColor: "#4886FF77",
+  splashBg: "#183A8D",
+};
+
+export const nextLevelBlueTheme = {
+  body: "#E8F7FF",
+  text: "#1565C0",
+  expTxtColor: "#0C0032",
+  // highlight: "#64B5F6",
+  dark: "#0A1C3A",
+  secondaryText: "#2196F3",
+  imageHighlight: "#448AFF",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#0D47A1",
+  headerColor: "#64B5F677",
+  splashBg: "linear-gradient(135deg, #1565C0, #64B5F6)",
+};
+
+export const nextLevelBlackTheme = {
+  body: "#000000",
+  text: "#F7F7F7",
+  expTxtColor: "#CCCCCC",
+  highlight: "#505050",
+  dark: "#202020",
+  secondaryText: "#999999",
+  imageHighlight: "#404040",
+  compImgHighlight: "#CCCCCC",
+  jacketColor: "#101010",
+  headerColor: "#505050",
+  splashBg: "#000000",
+};
+
+export const blackAndWhiteTheme = {
+  body: "#FFFFFF",
+  text: "#000000",
+  expTxtColor: "#333333",
+  highlight: "#000000",
+  dark: "#000000",
+  secondaryText: "#666666",
+  imageHighlight: "#000000",
+  compImgHighlight: "#FFFFFF",
+  jacketColor: "#000000",
+  headerColor: "#000000",
+  splashBg: "#FFFFFF",
+};
+
+export const neonTheme = {
+  body: "#000000",
+  text: "#FFFFFF",
+  expTxtColor: "#E2FF00",
+  highlight: "#00FFA3",
+  dark: "#000000",
+  secondaryText: "#FF00D4",
+  imageHighlight: "#00FFA3",
+  compImgHighlight: "#FFFFFF",
+  jacketColor: "#FF00D4",
+  headerColor: "#E2FF00",
+  splashBg: "#000000",
+};
+
+export const whiteTheme = {
+  body: "#ffffff",
+  text: "#000000",
+  expTxtColor: "#000000",
+  highlight: "grey",
+  dark: "#000000",
+  secondaryText: "black",
+  imageHighlight: "#091150",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#3a3a3d",
+  headerColor: "lightblue",
+  //headerColor: "#6a7293",
+  splashBg: "#ffffff",
+};
+
+export const chosenTheme = whiteTheme;
