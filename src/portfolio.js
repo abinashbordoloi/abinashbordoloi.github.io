@@ -49,7 +49,8 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-   "https://drive.google.com/file/d/1tggoRaM5ek7Tmpa4o572EGxGUBg-tZ1t/view?usp=sharing",
+  
+  "https://drive.google.com/drive/u/1/folders/1xDCFD_XeT1T_KSutV2n35C-5PS1DuBbo",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/abinashbordoloi",
 };
