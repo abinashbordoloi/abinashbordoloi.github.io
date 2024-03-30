@@ -47,9 +47,9 @@ const greeting = {
   logo_name: "Abinash Bordoloi",
   // nickname:,
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FveavQsnsMPtUtSTe8s0FzTlSNeKVMrM/view?usp=drive_link",
+   "https://drive.google.com/file/d/1tggoRaM5ek7Tmpa4o572EGxGUBg-tZ1t/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/abinashbordoloi",
 };
